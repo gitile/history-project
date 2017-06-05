@@ -1,0 +1,144 @@
+body {
+	background:#f6f6f6;font-size: 13px; padding: 0px; margin: 0px; color:#666;
+	font-family: "微软雅黑", "Microsoft Yahei", "STXihei", arial, sans-serif;
+	TEXT-ALIGN: center;
+}
+:focus{
+	outline:0;
+}
+button{
+	margin:0;
+	padding:0;
+	border:0;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+input[type="text"],input[type="password"]{
+	width:204px;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	color:#353535;
+	padding:4px 0 1px 8px;
+	border-width:1px;
+	border-style: solid;
+	border-color:#b5b5b5;
+	border-right-color:#d6d6d6;
+	border-bottom-color:#d6d6d6;
+}
+#header{
+	color:#eee;position: absolute;top:0px;text-align: center;width: 100%;
+	background:#444;background: rgba(0,0,0,0.3);padding-top: 5px;padding-bottom: 5px;
+}
+#header .container {
+  height: 30px;
+  line-height: 30px;
+  color: #eaeaea;
+  font-size: 12px;
+}
+#header .left {
+	float:left;
+}
+#header .right {
+	float:right;
+}
+#ui-login{
+	position: absolute;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	margin-top: -183px;
+}
+#ui-login .container {
+  position: relative;
+  height: 426px;
+}
+.login-banner {
+	  float:left;
+	  display: block;
+	  width: 551px;
+	  height: 426px;
+	  background: url(../images/login/login_banner.png) no-repeat 0 0;
+	  z-index: 1;
+}
+.login-box{
+	box-shadow: 0px 10px 150px rgba(0,0,0,0.4);
+	padding-bottom: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 290px;
+	min-height: 250px;
+	overflow: hidden;
+	background: url(../images/login/login_box_bg.png);
+	z-index: 2;
+}
+.login-box header{
+	position:relative;
+	width:170px;
+	height:20px;
+	line-height:20px;
+	padding:34px 0 0 0px;
+	color:#fff;
+	font-size: 18px;
+	font-family:"Microsoft YaHei";
+}
+section{
+	width:219px;
+	margin:5px auto 0;
+	display:block;
+}
+section dd{
+	height:40px;
+	margin-top:13px;
+}
+section dd label{
+	float:left;
+	width:40px;
+	height:40px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+label[for="username"]{
+	background-image:url(../images/login/mobile.png);	
+}
+label[for="password"]{
+	background-image:url(../images/login/pass.png);	
+}
+section input[type="text"],section input[type="password"]{
+	float:left;
+	width:168px;
+	height:33px;
+}
+section dt{
+	margin-top:8px;
+	height:18px;
+	line-height:18px;
+	color:#ccc;
+	text-align:right;
+}
+section dt label:hover{
+	text-decoration:underline;
+}
+#checkCodeDiv{
+	display:none;
+}
+#checkCodeDiv .check_code,  #checkCodeDiv img{
+	width:100px;
+}
+#checkCodeDiv img{
+	height:40px;
+}
+#submit{
+	width:219px;
+	height:40px;
+	margin-top:18px;
+	background:url(../images/login/button_submit.png);
+	cursor:pointer;
+}
+#submit:hover{
+	background-position:0 -40px;
+}
